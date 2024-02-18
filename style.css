@@ -32,6 +32,8 @@ ul {
 .hero {
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 .hero-content {
@@ -54,7 +56,6 @@ ul {
     color: #e5e7eb;
     margin: 0;
     padding: 0;
-    max-width: 100%;
 }
 
 #hero-button {
@@ -69,4 +70,106 @@ ul {
     border: 2px solid yellow;
     width: 400px;
     height: 200px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.two {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 100px;
+}
+
+.info {
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    justify-content: center;
+}
+
+#info-img {
+    border: 1px solid blue;
+    border-radius: 24px;
+    width: 150px;
+    height: 150px;
+}
+
+.three {
+    display: flex;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+
+#three-text {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 36px;
+    font-style: italic;
+
+
+}
+
+.three-quote {
+    border: 1px solid black;
+    width: 60%;
+}
+
+#quote-man {
+    text-align: right;
+}
+
+.four {
+    display: flex;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue {
+  width: 50%;
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  
+}
+
+#blue-text {
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+}
+
+#blue-texts {
+    color: white;
+    font-weight: 700;
+}
+
+#blue-button {
+    width: 120px;
+    height: 40px;
+    background-color: inherit;
+    border: 1px solid white;
+    color: white;
+}
+
+.footer {
+    background-color: #1f2937;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    color: white;
 }
